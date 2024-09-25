@@ -1,0 +1,58 @@
+{
+  "jni": [
+    {
+      "type": "java.nio.ByteBuffer",
+      "allDeclaredConstructors": true,
+      "allPublicConstructors": true,
+      "allDeclaredFields": true,
+      "allPublicFields": true,
+      "allDeclaredMethods": true,
+      "allPublicMethods": true
+    },
+    {
+      "type": "com.solacesystems.solclientj.core.impl.LogEventCallbackImpl",
+      "methods": [
+        {
+          "name": "onLogEvent",
+          "parameterTypes": [
+            "int",
+            "int",
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.solacesystems.solclientj.core.impl.NativeThreadHandlerImpl",
+      "methods": [
+        {
+          "name": "onThreadAttach",
+          "parameterTypes": []
+        },
+        {
+          "name": "onThreadDetach",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.solacesystems.solclientj.core.impl.VersionImpl",
+      "fields": [
+        {
+          "name": "nativeBuildDate"
+        },
+        {
+          "name": "nativeVariant"
+        },
+        {
+          "name": "nativeVersion"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "glob": "lib/**/*"
+    }
+  ]
+}

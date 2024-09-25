@@ -1,0 +1,103 @@
+{
+  "jni": [
+    {
+      "type": "java.nio.Buffer",
+      "methods": [
+        {
+          "name": "capacity",
+          "parameterTypes": []
+        },
+        {
+          "name": "isReadOnly",
+          "parameterTypes": []
+        },
+        {
+          "name": "limit",
+          "parameterTypes": []
+        },
+        {
+          "name": "position",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.nio.ByteBuffer",
+      "methods": [
+        {
+          "name": "array",
+          "parameterTypes": []
+        },
+        {
+          "name": "arrayOffset",
+          "parameterTypes": []
+        },
+        {
+          "name": "get",
+          "parameterTypes": []
+        },
+        {
+          "name": "isDirect",
+          "parameterTypes": []
+        },
+        {
+          "name": "limit",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "position",
+          "parameterTypes": [
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.solacesystems.solclientj.core.impl.LogEventCallbackImpl",
+      "methods": [
+        {
+          "name": "onLogEvent",
+          "parameterTypes": [
+            "int",
+            "int",
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.solacesystems.solclientj.core.impl.NativeThreadHandlerImpl",
+      "methods": [
+        {
+          "name": "onThreadAttach",
+          "parameterTypes": []
+        },
+        {
+          "name": "onThreadDetach",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.solacesystems.solclientj.core.impl.VersionImpl",
+      "fields": [
+        {
+          "name": "nativeBuildDate"
+        },
+        {
+          "name": "nativeVariant"
+        },
+        {
+          "name": "nativeVersion"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "glob": "lib/**/*"
+    }
+  ]
+}
